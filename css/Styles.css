@@ -1,0 +1,530 @@
+/* Css for my about me page :> */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2D3E2F; 
+    color: #FAF3DD; 
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #3E5138; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FAF3DD;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #D4A373; 
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.about-me-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-me-image {
+    width: 280px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-me-text {
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #3E5138; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-me-text p {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .about-me-text {
+        width: 90%;
+    }
+    .about-me-image {
+        width: 80%;
+    }
+}
+
+
+
+/* Spacing for organization lol Spacing for organization lol Spacing for organization lol Spacing for organization lol */
+
+
+
+/* my contact page Css :> */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2D3E2F; 
+    color: #FAF3DD; 
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #3E5138; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FAF3DD; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #D4A373; 
+}
+
+.contact-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #3E5138; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-item {
+    text-decoration: none;
+
+    background-color: #D4A373; 
+    color: #2D3E2F;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-item i {
+    margin-right: 8px;
+}
+
+.contact-item:hover {
+    background-color: #FAF3DD; 
+    color: #2D3E2F; 
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contact-form input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #D4A373; 
+}
+
+.contact-form button {
+    background-color: #D4A373; 
+    color: #2D3E2F; 
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #FAF3DD; 
+}
+
+@media screen and (max-width: 768px) {
+    .contact-container {
+        width: 90%;
+    }
+    .form-inline {
+        flex-direction: column;
+    }
+    .contact-form input {
+        width: 100%;
+    }
+}
+
+
+
+/* Spacing for organization lol Spacing for organization lol Spacing for organization lol Spacing for organization lol*/
+
+
+
+/* my homepage css :)*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2D3E2F; 
+    color: #FAF3DD; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #3E5138;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FAF3DD;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #D4A373;
+}
+
+header {
+    padding: 40px 20px;
+    background-color: #3E5138;
+    color: white;
+    font-size: 1.5em;
+}
+
+.homepage-container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.homepage-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+
+.homepage-image img {
+    width: 48%; 
+    max-width: 600px; 
+    border-radius: 15px; 
+}
+
+.homepage-text {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #3E5138;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1.1em;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .homepage-image {
+        flex-wrap: wrap;
+    }
+    .homepage-image img {
+        width: 90%;
+    }
+}
+
+
+
+/* Spacing for organization lol Spacing for organization lol Spacing for organization lol Spacing for organization lol*/
+
+
+
+/* my css for landscapes, portfolio, recent's, videos, films, and symmetry html's :) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2D3E2F; 
+    color: #FAF3DD; 
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #3E5138; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FAF3DD; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #D4A373; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #FAF3DD; 
+    margin-top: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+
+
+/* Spacing for organization lol Spacing for organization lol Spacing for organization lol Spacing for organization lol*/
+
+
+
+/* my video page css :):) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2D3E2F; 
+    color: #FAF3DD; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #3E5138; 
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FAF3DD;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #D4A373; 
+}
+
+header {
+    padding: 50px 20px;
+    background-color: #3E5138;
+    color: white;
+}
+
+.video-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.video-gallery video {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .video-gallery video {
+        width: 95%;
+    }
+}
+
+
+
+/* Spacing for organization lol Spacing for organization lol Spacing for organization lol Spacing for organization lol*/
+
+
+
+/* my css for footers :)*/
+.site-footer {
+    background-color: #3E5138; 
+    color: #FAF3DD; 
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.footer-logo p {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #FAF3DD; 
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out, transform 0.3s;
+}
+
+.footer-social a i {
+    font-size: 22px;
+}
+
+.footer-social a:hover {
+    color: #D4A373; 
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #FAF3DD;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        text-align: center;
+    }
+    .footer-social {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
