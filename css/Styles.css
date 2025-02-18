@@ -1,13 +1,14 @@
 /* Css for my about me page :> */
 body {
     font-family: Arial, sans-serif;
-    background-color: #2D3E2F; 
-    color: #FAF3DD; 
+    background-color: #2D3E2F; /* Dark Green */
+    color: #FAF3DD; /* Light Yellow */
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
+/* Navigation */
 nav {
     background-color: #3E5138;
     padding: 10px;
@@ -17,6 +18,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 nav ul li {
     margin: 0 15px;
@@ -32,6 +34,7 @@ nav ul li a:hover {
     color: #D4A373;
 }
 
+/* About Me Layout */
 .about-me-container {
     display: flex;
     flex-direction: column;
@@ -42,6 +45,7 @@ nav ul li a:hover {
     padding: 40px;
 }
 
+/* Image Section */
 .about-me-image {
     display: flex;
     justify-content: center;
@@ -52,7 +56,7 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 .about-me-image img {
-    width: 45%; 
+    width: 45%; /* Ensures both images fit side by side */
     max-width: 500px;
     border-radius: 15px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
@@ -62,6 +66,7 @@ nav ul li a:hover {
     transform: scale(1.05);
 }
 
+/* Text Box Section */
 .about-me-text {
     width: 60%;
     padding: 15px;
@@ -74,20 +79,21 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0 auto;
 }
 
+/* Responsive Design */
 @media screen and (max-width: 768px) {
     .about-me-image {
         flex-wrap: wrap;
     }
     .about-me-image img {
-        width: 90%; 
+        width: 90%; /* Stack images vertically on smaller screens */
     }
     .about-me-text {
         width: 90%;
     }
 }
-
 
 
 
