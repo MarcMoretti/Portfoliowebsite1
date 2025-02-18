@@ -1,14 +1,14 @@
 /* Css for my about me page :> */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #2D3E2F; /* Dark Green */
-    color: #FAF3DD; /* Light Yellow */
+    background-color: #2D3E2F; 
+    color: #FAF3DD; 
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-/* Navigation */
 nav {
     background-color: #3E5138;
     padding: 10px;
@@ -34,7 +34,6 @@ nav ul li a:hover {
     color: #D4A373;
 }
 
-/* About Me Layout */
 .about-me-container {
     display: flex;
     flex-direction: column;
@@ -45,7 +44,6 @@ nav ul li a:hover {
     padding: 40px;
 }
 
-/* Image Section */
 .about-me-image {
     display: flex;
     justify-content: center;
@@ -56,17 +54,13 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 .about-me-image img {
-    width: 45%; /* Ensures both images fit side by side */
+    width: 45%; 
     max-width: 500px;
     border-radius: 15px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s;
 }
-.about-me-image img:hover {
-    transform: scale(1.05);
-}
 
-/* Text Box Section */
 .about-me-text {
     width: 60%;
     padding: 15px;
@@ -81,14 +75,12 @@ nav ul li a:hover {
     flex-direction: column;
     margin: 0 auto;
 }
-
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     .about-me-image {
         flex-wrap: wrap;
     }
     .about-me-image img {
-        width: 90%; /* Stack images vertically on smaller screens */
+        width: 90%; 
     }
     .about-me-text {
         width: 90%;
