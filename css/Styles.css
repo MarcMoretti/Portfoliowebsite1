@@ -58,7 +58,6 @@ nav ul li a:hover {
     max-width: 500px;
     border-radius: 15px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s;
 }
 
 .about-me-text {
